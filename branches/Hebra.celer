@@ -1,0 +1,15 @@
+Hebra:
+- _Warp::Shrine::ShadaNaw:
+    line-color: "#00ff00"
+- BLSS
+- _Shrine::LannoKooh
+- .dir(NE):
+    notes: Cryo block out or you will have to eat. Use hammer to hit snowball (stasis 3 hits + stasis 3 hits)
+- _Shrine::GeeHarah
+
+- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+    coord: [-2388,-2440.6529636418254]
+- _Shrine::RinOyaa
+- .dir(SE) + BLSS:
+    coord: [-1434,-2250.5776931988426]
+- _Shrine::RonaKachta

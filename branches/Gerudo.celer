@@ -1,0 +1,66 @@
+Gerudo:
+- _Warp::Shrine::AkhVaquot:
+    line-color: yellow
+- Bomb tree BLSS
+- _Shrine::KahOkeo
+- Climb + .dir(E) windbombs
+- _Shrine::TenaKosah
+- Moblin BTB:
+    var-change:
+      Arrow: -1
+      IceArrow: -2
+    notes: .v(Arrow) arrows left. .v(IceArrow) ice arrows left
+- _Shrine::KeehaYoog:
+    comment: 1 Shock Arrow activate
+- .dir(<N) Turn + .dir(W>) Turn + .dir(S>) Turn:
+    movements:
+    - to: [-3928,532.6861495118246]
+    - to: [-4320,416.64019492558236]
+- _Shrine::KemaKosassa
+- 2 .dir(S) Cardinal Turn
+- _Shrine::KemaZoos
+- .dir(S>) out + .dir(S.) Turn
+- _Shrine::ThoKayu:
+    comment: Check .v(FireArrow) fire arrows
+    notes: Need 6 fire arrows for KT( 7 is fastest). Also need to save 1 for Goma Assagh
+    var-change:
+      FireArrow: -3
+- BLSS
+- _Shrine::HawaKoth:
+    notes: snap guardian here if you haven't
+
+- _Warp::Shrine::ShadaNaw:
+    line-color: yellow
+    notes: Doing this part of hebra now so it's day time for shield surf minigame
+- _Shrine::GomaAsaagh:
+    notes: No claymore
+    var-change:
+      FireArrow: -1
+- Ring Chase:
+    movements:
+    - to: [-2792.10, 665.50, -2810.60]
+    - to: [-2747.40, 636.86, -2727.30]
+    - to: [-2575.10, 578.92, -2648.00]
+    - to: [-2478.80, 557.90, -2650.40]
+    - to: [-2401.80, 542.60, -2671.80]
+    - to: [-2380.60, 525.25, -2727.60]
+    - to: [-2399.80, 514.90, -2800.50]
+    - to: [-2424.80, 498.50, -2891.60]
+    - to: [-2429.21, 489.01, -2961.43]
+    - to: [-2379.90, 473.60, -3090.80]
+    - to: [-2300.00, 456.55, -3116.60]
+    - to: [-2239.00, 447.70, -3118.10]
+    - to: [-2195.09, 443.89, -3156.53]
+- _Shrine::KiahToza
+- Surf + .dir(W>>) Ordinal Turn:
+    coord: [-2245,-3151.7979582846247]
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn Midairs:
+    coord: [-2386,-3399.7266494439036]
+- _Shrine::ShaGehma
+- .dir(E>) Turn + .dir(E) midairs
+- _Shrine::QazaTokki
+- .dir(S) up + BLSS
+- _Shrine::KetohWawai
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows

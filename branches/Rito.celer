@@ -1,0 +1,235 @@
+Rito:
+- _Warp::Shrine::KehNamut:
+    line-color: yellow
+- Buffered SCW:
+    notes: Boko Arm + Pepper
+    var-change:
+      Weapons: -1
+      FireArrow: -1
+- _Shrine::EtsuKorima
+- .dir(E>>) Turn:
+    coord: [-957,2318.9593935768116]
+- Buffered SCW:
+    coord: [-922,2316.860551600368]
+    notes: Shield Surf + Tree Launch
+- _Shrine::RuvoKorbah
+- +.dir(<E) Turn:
+    var-change:
+      Wood: 1
+    notes: 1 Wood
+    coord: [-448,1989.731007206392]
+- Buffered SCW:
+    notes: Shield surf + WB
+- _Shrine::RohtaChigah
+
+- .!!(SAVE BEFORE WB):
+    notes: Since mag is already activated, game won't save you there, so you will be down 1 heart if scw fails
+- .dir(<N):
+    coord: [-672,1516.5436234193867]
+- Buffered SCW:
+    notes: Boko Arm + Pepper + 4 campfires.
+    var-change:
+      Weapons: -1
+      FireArrow: -1
+      Wood: -4
+- _Shrine::YowakaIta:
+    notes: Camera clip
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows
+    
+- Bomb tree + boar:
+    notes: 1 Wood. get raw meat for scw
+    var-change:
+      Wood: 1
+- .dir(E) Backflip super
+- _Shrine::BoshKala
+- .dir(N>) TS
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    coord: [950,500.1411246295402]
+- .dir(N)
+- kaya wan forest:
+    notes: 6 Raddish, 7 Endura shroom.
+    movements:
+    - to: [906.07, 135.42, 337.05]
+    - to: [900.02, 134.07, 331.65]
+    - to: [899.73, 133.23, 324.84]
+    - to: [891.74, 132.13, 294.51]
+    - to: [882.92, 131.63, 297.73]
+    - to: [844.13, 131.63, 292.32]
+    - to: [847.89, 131.66, 277.10]
+    - to: [847.72, 131.63, 276.06]
+    - to: [863.29, 131.97, 272.13]
+    - to: [865.83, 132.12, 267.64]
+    - to: [864.18, 132.03, 267.46]
+    - to: [832.38, 131.76, 234.15]
+    - to: [830.34, 131.95, 222.57]
+- _Shrine::KayaWan:
+    notes: snap guardian
+
+- _Cook<3 Speed + H/E>
+- BLSS to shrine:
+    coord: [917,150.2713926522165]
+- _Shrine::DakaTuss
+- BTB to mezzalo:
+    var-change:
+      IceArrow: -1
+    notes: .v(IceArrow) Ice Arrows left
+- _Shrine::MezzaLo
+- BLSS
+- 1 Raddish
+- _Shrine::SohKofi
+
+- BLSS:
+    coord: [2189,-189.96315709896044]
+- _Shrine::ShehRata
+- .dir(<N) Turn
+- _Shrine::MirroShaz
+- .dir(S>>) Slight Turn + .dir(W):
+    coord: [956,-812.210757240352]
+- _Shrine::NamikaOzz
+- +BLSS to castle
+- _Chest<Dinraal Scale>:
+    coord: [-194,-1220.050312348731]
+- +WB above tower
+- _Chest<5 Fire Arrows>:
+    coord: [-247,-1199.535258260134]
+    var-change:
+      FireArrow: 5
+- +SQ
+- _Chest<5 Bomb Arrows>:
+    coord: [-295.5,-1158.0257504147048]
+- 3 Lizal movement:
+    notes: Head shot first one (near flameblade) and run pass him without getting noticed. Sneakstrike second with EOD from his back and left (to stay out of the third one's view). Head shot 3rd and sneakstrike him with EOD. Grab bow from the last lizalfos.
+    var-change:
+      Arrow: -2
+- _Equipment::Weapon<Flameblade>:
+    coord: [-267,-1133.0158464090491]
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 Weapons
+- _Equipment::Bow<Lizal Bow>:
+    coord: [-236.5,-1187.4031388246876]
+- Ancient Arrow:
+    coord: [-216.22, 114.32, -1180.13]
+- WB to shrine
+- _Shrine::SaasKosah:
+    notes: Check 1 empty shield slot
+
+- +Run up:
+    coord: [-161.5,-1079.8605516003681]
+- _Equipment::Weapon<Boomerang>:
+    var-change:
+      Weapons: 1
+    notes: .v(Weapons)/8 weapons
+- +WB to 3AA:
+    coord: [-62.64, 213.94, -1044.27]
+- +.dir(<<N)
+- _Chest<Naydra Scale>:
+    coord: [-176,-1164.4475087700248]
+- +.dir(N) super + .dir(N>) Turn:
+    coord: [-34,-1636.1101325428908]
+- Keep rusty shield
+- _Shrine::KuhnSidajj
+
+- Backflip to KF:
+   coord: [376,-2203.3217736927]
+- .dir(NW) midair to Oaki
+- Start quest
+- Backflip to shrine:
+    notes: 1 Wood. .v(Wood) wood left
+    var-change:
+      Wood: 1
+- _Shrine::DaagChokah
+- .dir(E>) Turn
+- _Shrine::KeoRuug
+- .dir(E) start quest
+- WB to shrine, throw sword
+- _Shrine::MaagHalan
+- _Warp::Shrine::KuhnSidajj:
+    line-color: red
+
+- +.dir(S>) Turn escape + .dir(.E) Turn midair:
+    coord: [-314.5,-1665.7198689255556]
+    notes: Can also ordinal super to escape and wb directly to tree, but riskier
+- +BLSS to shrine:
+    notes: 1 wood from tree
+    var-change:
+      Wood: 1
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah
+
+- 2 WB + BLSS to rito:
+    movements:
+    - to: [-2060,-1633.5467927011969]
+    - to: [-2110,-1553.5150998830986]
+    - to: [-2882,-1659.5570928670786]
+    - to: [-3646,-1756.9255218774697]
+- _Tod::Noon:
+    var-change:
+      Wood: -1
+    notes: Before entering shrine
+
+- _Shrine::AkhVaquot
+- +6 Hearts:
+    coord: [-3595,-1809.2533673619228]
+- +.dir(S)
+- _Shrine::BareedaNaag:
+    var-change:
+      FireArrow: -1
+    notes: .v(FireArrow) Fire Arrows Left
+- Shield Surf SCW
+- Cut tree 1 wood:
+    var-change:
+      Wood: 1
+    notes: Be careful not to get textbox
+- _Shrine::VooLota:
+    notes: Rushroom activate. Keep rushroom for speed food. Can get 3 peppers for backup
+
+- .dir(N>) TS
+- _Shrine::ShaWarvo
+- Shield Surf SCW
+- _Shrine::NoeRajee
+- Updraft up
+- 10 Arrows:
+    var-change:
+      Arrow: 10
+    notes: .v(Arrow) arrows left
+    coord: [-3794,-2318.8460688548603]
+- .dir(<N):
+    coord: [-3984,-2549.3553557229257]
+- _Shrine::MakaRah
+
+- +Run out:
+    coord: [-3984,-2549.3553557229257]
+- +.dir(E) HIGH:
+    coord: [-3859,-2534.3494133195322]
+- +.dir(N.) + .dir(E) midair:
+    movements:
+    - to: [-3807,-2720.4230991216104]
+    - to: [-3655,-2710.419137519348]
+- +.dir(N) + .dir(N) midair:
+    coord: [-3575,-3031.5463049519667]
+- _Shrine::MozoShenno
+
+- +.dir(E) HIGH:
+    coord: [-3437,-3053.5550204769434]
+- +.dir(N) + .dir(E) midairs:
+    coord: [-3408,-3217.619990754045]
+- _Shrine::ShadaNaw
+
+- BLSS
+- _Shrine::HiaMiu
+- .dir(E)
+- Clip into mountain
+- _Shrine::ToQuomo:
+    notes: Get claymore. .v(Weapons)/8 Weapons
+    var-change:
+      Weapons: 1
+
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows
+

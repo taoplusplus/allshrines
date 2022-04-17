@@ -1,0 +1,176 @@
+Hateno:
+- +BLSS to Kak
+- +_Npc::SheikaFemale<Impa>:
+    line-color: red
+    coord: [1772.71, 229.43, 984.31]
+- +_Equipment::Shield<Pot Lid>:
+    coord: [1803,1016.2649550485403]
+- +_Shop<10 Fire 10 Normal>:
+    coord: [1827,1039.9681091017883]
+    var-change:
+      Rupee: -200
+      FireArrow: 10
+      Arrow: 10
+    notes: Sell ruby. .v(FireArrow) fire arrows and .v(Arrow) normal arrows left
+- +_Tod::Night:
+    coord: [1824.75,1006.5110924863347]
+    comment: For SCW + Kam Urog
+    notes: 4 apples from korok
+
+- +_Npc<1 Heart>:
+    coord: [1841,997.9514703722871]
+- +.dir(N) to shrine
+- _Shrine::TalohNaeg:
+    comment: Get Shield inside
+
+- SCW to Lakna Rokee:
+    notes: 2 apples, wb from tree. Shield surf, EOD inside shrine. Don't use EOD until after eventide
+- _Shrine::LaknaRokee:
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 Weapons
+
+- +Cut tree wb:
+    notes: 1 Wood
+    var-change:
+      Wood: 1
+- .dir(E) + .dir(E>) Turn
+- _Shrine::DowNaeh
+
+- .dir(<N) + .dir(S>):
+    coord: [2642,1187.0932957332761]
+- _Shrine::KamUrog:
+    notes: No need to eat if you land on top. Need to eat if you fall down to the stairs
+    var-change:
+      Arrow: -1
+
+- .dir(S) + BLSS
+- _Shrine::TotoSah
+- +.dir(<N) Turn + .dir(<N) Turn
+- +_Material<4 Violets>:
+    coord: [1634,1907.2630503902146]
+- _Shrine::HaDahamar
+- +.dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+
+- Shield Surf SCW
+- _Shrine::SheeVaneer
+- _Equipment::Weapon<2 Boko Arm>:
+    coord: [1277,1943.2773121583587]
+    var-change:
+      Weapons: 2
+    notes: Boko arms for plat SCWs. Also get the traveller bow if you can (for eventide)
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows
+- _Shrine::SheeVaneth
+- BLSS to dragon:
+    coord: [1744,2982.6869418322767]
+    notes: FARM FAROSH AT NIGHT. 1 scale (first shot) + 5 horns. If after 5AM, farm for 5AM and make night after last shot. If before 5AM, make night twice for the first spawn
+    var-change:
+      FireArrow: -1
+      Arrow: -7
+      Wood: -1
+- Drop down (WB if far)
+- _Shrine::ShodaSah:
+    comment: 5 Ice Arrows
+    var-change:
+      IceArrow: 5
+- __use__ CheckWoodAndArrows
+
+- BLSS to stable:
+    notes: Turn + wb saves 3-4 seconds over BLSS. I like BLSS because I tend to get stopped by waterfall
+- _Cook<1 Speed>:
+    coord: [1574,3527.943105213035]
+- _Shrine::ShaiUtoh
+
+
+- .dir(E) super + .dir(N>) + .dir(N>) midair
+- _Shrine::QukahNata:
+    notes: No Pants
+
+- +.dir(<E) TS to blue hinox:
+    coord: [2691,2964.6817917493354]
+- Walk orb:
+    coord: [2636,2844.634252522189]
+- cut tree wb:
+    notes: 1 wood
+    var-change:
+      Wood: 1
+- .dir(.E):
+    coord: [2369.37, 321.05, 2862.74]
+- EOD slam kill boko
+- _Material<12 Lotus>:
+    coord: [2367.5,2808.0784397247926]
+- Walk orb:
+    notes: If you missed the boko arms at dueling peaks, try to get them here
+    coord: [2616,2824.5849763685255]
+- _Equipment::Weapon<Boko Bat>:
+    var-change: 
+      Weapons: 1
+    comment: .v(Weapons)/8 weapons
+    coord: [2767,2714.5413987436405]
+- Walk orb
+- _Shrine::TawaJinn:
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 weapons
+    notes: Get thunderblade
+    
+- BLSS to hateno
+- _Shrine::MyahmAgana
+- +.dir(.N) Turn LOOK UP
+- Smuggle blue flame:
+    coord: [3440.5,1976.8258875805732]
+    notes: Use torch or boko bat
+- Camera:
+    icon: snap
+    split-type: UserDefined
+    coord: [3779,2124.8845192940553]
+    var-change:
+      Weapons: -1
+    comment: Throw away torch if you got
+    notes: .v(Weapons)/8 Weapons 
+- BLSS to Muwo Jeem
+- _Shrine::MuwoJeem
+- +.dir(NE)
+- _Shrine::ChaasQeta
+- BLSS to Eventide:
+    notes: 1 Wood
+    var-change:
+      Wood: 1
+- _Shrine::KorguChideh:
+    var-change:
+      Weapons: -1
+      Rupee: 300
+      Arrow: -1
+    notes: Smuggle Axe and one bow. Get Gold Rupee
+    comment: .v(Rupee) Rupees
+
+- BLSS to fragment 1:
+    coord: [3796,3631.084778288412]
+- Cut tree wb:
+    notes: 1 Wood
+    var-change:
+      Wood: 1
+- .dir(NW) to fragment 2:
+    coord: [3532,3367.9805881489156]
+- .dir(SW) to fragment 3:
+    coord: [3388,3483.0261465749318]
+- .dir(N) to shrine
+- _Shrine::KahYah
+- .dir(S>>) + .dir(<E) Turn:
+    coord: [3318,3527.043577624885]
+- _Shop<20 Shock>:
+    coord: [2954,3492.029712016967]
+    var-change:
+      Rupee: -280
+    comment: .v(Rupee) Rupees left
+- Run to statue grab crab:
+    notes: Crab for scw. 4 Stam at statue
+    coord: [2923,3448.012280967014]
+- .dir(<N)
+- Set .dir(E) skew:
+    notes: For Etsu Korima OOB
+- _Shrine::YahRin
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows

@@ -1,0 +1,21 @@
+Project: 
+  Name: All Shrines 3
+  Authors:
+    - iTNTPiston
+  Version: "3.0"
+  Description: All Shrines
+  Url: "https://github.com/iTNTPiston/as3"
+
+Route:
+  - All Shrines:   
+    - __use__ Plateau
+    - __use__ Hateno
+    - __use__ Rito
+    - __use__ Gerudo
+    - __use__ ZD
+    - __use__ Eldin
+    - __use__ Wasteland
+    - __use__ Bloodmoon
+    - __use__ Hebra
+    - __use__ Akkala
+    - __use__ Central
