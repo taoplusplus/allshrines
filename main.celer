@@ -1,0 +1,13 @@
+---
+_project:
+  authors:
+    - TaoPlusPlus
+  description: ""
+  name: All Shrines
+  url: ""
+  version: 0.1.0
+_route:
+  - Plateau:
+    - __use__ Plateau
+  - Kakatenotide:
+    - __use__ Branch 1

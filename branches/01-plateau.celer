@@ -1,0 +1,69 @@
+Plateau:
+- SOR clip:
+    notes: Activate time of day.
+
+- .dir(Run):
+    notes: 1 shroom, 2 apple on the way.
+
+- _Equipment::Weapon<Torch>:
+    line-color: rgb(204,204,204)
+    coord: [-936.20, 224.90, 1880.20]
+    comment: Side hop to avoid cutscene
+
+- _Equipment::Weapon<Woodcutter's Axe>:
+    coord: [-920.93, 220.65, 1871.83]
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+    notes: Steak, 6 pepper, 2 shroom.
+
+- .dir(Run and shield surf):
+    notes: First Zelda cutscene.
+
+- .loc(Temple of Time):
+    notes: Clip in.
+
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+    notes: 5 arrow.
+
+- .dir(BLSS):
+    notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+
+- _Shrine::JaBaij:
+    comment: Clip in
+
+- _Npc<Old Man>:
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text options 2-1-1-2
+
+- .dir(BLSS)
+- _Tower::GreatPlateau
+
+- .dir(WB over invisible wall):
+    notes: Lag stop looking at forest and fall damage cancel.
+
+- _Material<Ruby,1>:
+    coord: [-671.65, 171.79, 1522.61]
+
+- _Shrine::OmanAu
+
+- .dir(BLSS)
+- .loc(Mean Tree):
+    coord: [-839,2273.5]
+
+- .dir(Tree WB)
+- _Shrine::OwaDaim
+
+- _Equipment::Weapon<Iron Sledgehammer>:
+    hide-icon-on-map: true
+
+- .dir(Boulder Launch + BLSS):
+    notes: 3 hits on boulder.
+- _Shrine::KehNamut
+
+- .dir(BLSS)
+- _Npc<Paraglider>:
+    icon: king
+    coord: [-812, 1966.1012189378007]
+    split-type: UserDefined

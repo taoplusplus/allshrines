@@ -1,0 +1,127 @@
+Branch 1:
+- .dir(BLSS)
+- _Shrine::BoshKala:
+    line-color: rgb(255,0,0)
+    comment: Run
+
+- .dir(N> turn super):
+    notes: From pedestal
+- _Shrine::WahgoKatta:
+    comment: Left peg, W>> wb
+
+- .dir(E>> turn super)
+- _Shrine::HilaRao:
+    comment: Walk forward, N> wb
+
+- .dir(N turn)
+- _Material<Fairy>:
+    coord: [949.19, 138.58, 502.84]
+
+- .dir(<N turn)
+- _Material<Food>:
+    movements:
+        - to: [900.02, 134.07, 331.65]
+        - to: [891.74, 132.13, 294.51]
+        - to: [847.89, 131.66, 277.10]
+        - to: [863.29, 131.97, 272.13]
+        - to: [895.5,238]
+        - to: [832.38, 131.76, 234.15]
+    comment: 4 radish, 6 endura shroom
+- _Material<Wood,11>
+- _Shrine::KayaWan
+
+- .dir(E> super)
+- _Shrine::DakaTuss
+
+- .dir(S) land on hill
+- .dir(E> + S midair)
+- _Npc::SheikaFemale<Paya and Impa>:
+    movements:
+        - to: [1784.43, 228.91, 986.46]
+        - to: [1772.71, 229.43, 984.31]
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [1800.25, 219.63, 1012.57]
+
+- _Cook<1 Radish and All Endura>
+
+- _Tod::Night:
+    notes: For Kam Urog timing and less laggy SCW.
+
+- _Shop<Arrow Shop>:
+    coord: [1825.55, 224.39, 1045.11]
+    comment: 10 arrow, 10 fire arrow
+
+- _Npc<Goddess Statue>:
+    coord: [1840.12, 218.54, 997.89]
+    comment: 2 hearts
+
+- .dir(N)
+- _Shrine::TalohNaeg
+
+- .!!(SAVE)
+- .dir(Buffered SCW)
+- _Shrine::LaknaRokee
+
+- .dir(<E) up to on hill:
+    coord: [2162,922]
+- .dir(E>) to waterfall:
+    coord: [2698.5,1294]
+- _Shrine::DowNaeh
+
+- .dir(<<N) up to pillar:
+    coord: [2641,1187]
+- .dir(S>)
+- _Shrine::KamUrog
+
+- .dir(S) up to ledge:
+    coord: [2466.5,1687]
+- .dir(BLSS)
+- _Shrine::TotoSah
+
+- .dir(<N turn)
+- _Material<Wood,3>:
+    coord: [1751.20, 116.07, 1953.47]
+    
+- .dir(W)
+- _Material<Swift Violet,4>:
+    coord: [1636.16, 148.76, 1901.35]
+- _Shrine::HaDahamar
+
+- .dir(<W + W> midair)
+- _Shrine::ReeDahee
+
+- .dir(Pepper SCW)
+- _Shrine::SheeVaneer
+
+- .dir(Glide)
+- _Shrine::SheeVenath
+
+- .dir(Elevator BLSS)
+- Set campfire:
+    coord: [1727.5,2968]
+- _Material<Shard of Farosh's Horn,5>:
+    comment: And 1 scale
+- _Shrine::ShodaSah
+
+- .dir(BLSS)
+- _Cook<Speed Food>:
+    coord: [1573.26, 165.96, 3530.55]
+    comment: 4 violet, 1 horn
+    notes: Needs to last until Rito Village.
+
+- _Tod::Night:
+    notes: (Optional) For good weather on Eventide.
+- _Shrine::ShaiUtoh
+
+- .dir(E>) up to cliff edge
+- .dir(N>> + midair) clip into shrine
+- _Shrine::QukahNata:
+    comment: Clear ragdoll
+
+- .dir(Clip out)
+- .dir(NE + N midair)
+- _Material<Fleet Lotus Seed,12>:
+    movements:
+        - to: [2388.81, 320.40, 2857.57]
+        - to: [2368.69, 320.41, 2816.63]
