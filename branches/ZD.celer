@@ -1,6 +1,7 @@
 ZD:
 - _Warp::TechLab::Hateno:
     line-color: yellow
+    text: .loc(Tech Lab)
 - .dir(N>) Turn + .dir(<E) (or ordinal)
 - _Shrine::TahnoOah
 - +.dir(N) + .dir(N) midair:

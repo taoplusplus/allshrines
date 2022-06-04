@@ -6,6 +6,12 @@ _project:
   description: All Shrines v3. Based on BingsF 2.5,  Johnny's WR, and meiju's idea 
   url: "https://github.com/iTNTPiston/as3"
 
+_config:
+  split-format:
+    Shrine: "[{{%03 Shrine}}] {{_}}"
+    Tower: "Tower"
+    Warp: "Warp {{_}}"
+
 _route:
   - Plateau:  __use__ Plateau
   - Hateno:   __use__ Hateno
