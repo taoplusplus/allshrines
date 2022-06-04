@@ -82,9 +82,7 @@ Hateno:
       Wood: -1
 - Drop down (WB if far)
 - _Shrine::ShodaSah:
-    comment: 5 Ice Arrows
-    var-change:
-      IceArrow: 5
+    comment: Get ice arrow if going for btb
 - __use__ CheckWoodAndArrows
 
 - BLSS to stable:

@@ -1,11 +1,8 @@
 Gerudo:
-- _Warp::Shrine::TenaKosah:
+- _Warp::Shrine::MoggLatan:
+    notes: Warp to TK if going for btb
     line-color: cyan
-- Moblin BTB:
-    var-change:
-      Arrow: -1
-      IceArrow: -2
-    notes: .v(Arrow) arrows left. .v(IceArrow) ice arrows left
+- BLSS + 2 WB + glide up
 - _Shrine::KeehaYoog:
     comment: 1 Shock Arrow activate
 - .dir(<N) Turn + .dir(W>) Turn + .dir(S>) Turn:
