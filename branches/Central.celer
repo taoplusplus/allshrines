@@ -1,12 +1,12 @@
 Central:
 - _Warp::Shrine::KuhTakkar:
     line-color: cyan
-- _Shrine::KuhTakkar
 - Shield Surf SCW
 - WB + BLSS:
     movements:
     - to: [-3196,1032.7717201206897]
     - to: [-3112,888.7146730481127]
+    notes: activate with amiibo
 - _Shrine::JolooNah
 - .dir(.S) Turn
 - _Shrine::JeeNoh
@@ -28,7 +28,8 @@ Central:
 - +.dir(N) midairs
 - _Equipment::Bow<Royal Guard Bow>:
     coord: [-333,-995.5355553803038]
-- _Equipment::Weapon<EOD>
+- _Equipment::Weapon<EOD>:
+    notes: Should have EOD, 1 Claymore, Flameblade, Boomerang for fights. 
 - 5 Arrows:
     var-change:
       Arrow: 5
@@ -49,7 +50,7 @@ Central:
     icon: ganon
     coord: [-253.75,-1066.3135837163095]
     hide-icon-on-map: true
-    notes: Parry + spin with claymore phase 1. Get claymore for stunlock
+    notes: Parry + spin with claymore phase 1. Get claymore for stunlock. Start stunlock with flameblade
 - Dark Beast:
     split-type: UserDefined
     icon: ganon

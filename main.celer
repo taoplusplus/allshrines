@@ -1,21 +1,26 @@
-Project: 
-  Name: All Shrines 3
-  Authors:
+_project: 
+  name: All Shrines 3
+  authors:
     - iTNTPiston
-  Version: "3.0"
-  Description: All Shrines
-  Url: "https://github.com/iTNTPiston/as3"
+  version: "3.0"
+  description: All Shrines v3. Based on BingsF 2.5,  Johnny's WR, and meiju's idea 
+  url: "https://github.com/iTNTPiston/as3"
 
-Route:
-  - All Shrines:   
-    - __use__ Plateau
-    - __use__ Hateno
-    - __use__ Rito
-    - __use__ Gerudo
-    - __use__ ZD
+_route:
+  - Plateau:  __use__ Plateau
+  - Hateno:   __use__ Hateno
+  - Eldin + Akkala:
     - __use__ Eldin
+    - __use__ Akkala
+  - Rito:
+    - __use__ Rito
+  - Gerudo + Wasteland:
+    - __use__ Gerudo
     - __use__ Wasteland
+  - Hebra:
     - __use__ Bloodmoon
     - __use__ Hebra
-    - __use__ Akkala
+  - Zora's Domain:
+    - __use__ ZD
+  - Central:
     - __use__ Central

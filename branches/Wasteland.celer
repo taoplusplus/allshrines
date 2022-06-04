@@ -1,22 +1,16 @@
 Wasteland:
 - _Warp::Shrine::KeehaYoog:
-    line-color: "#00ff00"
+    line-color: "red"
 - +.dir(<E) Turn + .dir(SE):
     coord: [-3086,1216.453207298804]
-- +Activate Kuh Takkar:
-    notes: Doing this later in case SCW fail. Get fire arrow at camp if need (Need 7) If you have 6, you can spin with flameblade in between shots. Also use FDB if you are low on fire arrows (they help a bit)
+- +Melt Kuh Takkar:
+    notes: Get all wood from camp while doing this
     var-change:
-      FireArrow: -7
+      FireArrow: -8
+      Wood: 14
+- _Shrine::KuhTakkar
 
-- +Pepper SCW
-- +.dir(<E) Turn
-- +Campfire Activate:
-    var-change: 
-      Wood: -1
-    notes: .v(Wood) wood left
-- _Shrine::KihiroMoh
-- +Run to other side of hole to wb
-- +.dir(E) + .dir(W) + midairs
+- .dir(<E) TS
 - _Shrine::ShoDantu
 - Shield Surf SCW
 - .dir(S) LOOK UP
@@ -25,62 +19,29 @@ Wasteland:
       Wood: -1
     notes: .v(Wood) wood left
 - _Shrine::SasaKai
-- .dir(E>) DT
-- _Shrine::KayNoh
-- .dir(<W) Turn + .dir(<N) Turn
-- _Shrine::DakoTah:
-    notes: If Mind Eye Shield is already broken here, you can get early radiant shield. Otherwise there is one more SCW before radiant shield
-- .dir(S>>) + .dir(SW)
+- .dir(S>) DT
+
 - _Shrine::DaqoChisay
-- +.dir(W.) to sand seal
-- Ring Chase:
-    movements:
-    - to: [-4051.50, 149.57, 2742.00]
-    - to: [-4201.40, 154.24, 2713.20]
-    - to: [-4290.06, 159.24, 2679.14]
-    - to: [-4402.44, 152.77, 2628.23]
-    - to: [-4491.50, 162.95, 2589.50]
-    - to: [-4560.00, 172.29, 2513.50]
-    - to: [-4586.50, 150.65, 2423.50]
-    - to: [-4595.00, 144.47, 2336.70]
-    - to: [-4682.00, 152.24, 2295.00]
-    - to: [-4756.10, 171.27, 2252.70]
-    - to: [-4855.12, 147.28, 2169.28]
-- _Shrine::TakamaShiri
-- +Shield Surf SCW + peppupdraft
-- +.dir(SE) midairs
-- +Hydromelon Activate:
-    notes: If already gotten hydro melon from crates, use campfire. If no campfire, touch the orb (The npcs are out of range but the orb is not)
+- stupid trick:
+    var-change:
+      Wood: -9
+    notes: .v(Wood) wood left
 - _Shrine::RaqaZunzo:
     comment: Radiant Shield
-- Cut Tree BLSS:
-    notes: 1 Wood
+- Cut Tree BLSS
+- _Shrine::DakoTah
+- wb
+- _Shrine::KayNoh
+- wb
+- _Shrine::KorshOhu:
+    notes: make noon during the orbs
     var-change:
-      Wood: 1
-- Clip
+      Wood: -1
+- wbs
 - _Shrine::MisaeSuma
-- _Tod::Noon:
-    text: .!!(MAKE NOON)
-    notes: Can make before entering Keive Tala if you are slow
-    var-change:
-      Wood: -1
-- .dir(E.) Turn
-- Kill Molduking:
-    notes: Use FDB, Throw bomb, 2 Shock on ground, DEFUSE, 5 Shock BT, Endura, 6 Shock BT, Whistle-sprint to the belly for double hits, 8 Hits, Swap weapon back and forth to recharge blade, spin to death 
-- _Shrine::KeiveTala:
-    comment: Shock trap
-    var-change:
-      Weapons: -1
-- Shield Surf SCW
-- .dir(<N) Turn + .dir(N)
-- Campfire Activate:
-    notes: .v(Wood) wood left
-    var-change:
-      Wood: -1
-- _Shrine::KorshOhu
-
-- .dir(S) + .dir(E>) midairs
-- _Shrine::DilaMaag
+- wbs
+- _Shrine::DilaMaag:
+    notes: Barb armor if need
 - +WB up
 - +.dir(E) + .dir(E) up
 - +.dir(S) + .dir(S) up
