@@ -1,7 +1,8 @@
 Rito:
 - _Warp::Shrine::KehNamut:
     line-color: yellow
-- BLSS + wb
+- BLSS + wb:
+    notes: Go grab durians if need a lot backup food
 - _Shrine::MoggLatan
 - .v(Wood) wood left
 - BLSS

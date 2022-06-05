@@ -37,7 +37,7 @@ Hateno:
     comment: Get Shield inside
 
 - SCW to Lakna Rokee:
-    notes: wb from tree. Shield surf, EOD inside shrine.
+    notes: Shield surf, EOD inside shrine. Want to use EOD over hammer since need hammer to break rocks
 - _Shrine::LaknaRokee:
     var-change:
       Weapons: 1

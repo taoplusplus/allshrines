@@ -4,10 +4,11 @@ Wasteland:
 - +.dir(<E) Turn + .dir(SE):
     coord: [-3086,1216.453207298804]
 - +Melt Kuh Takkar:
-    notes: Get all wood from camp while doing this
+    notes: Get all wood and 5 fire arrows from camp while doing this. Can also grab 2 truffle for back up food
     var-change:
-      FireArrow: -8
+      FireArrow: -3
       Wood: 14
+    coord: [-3122.5,1326.4799939085751]
 - _Shrine::KuhTakkar
 
 - .dir(<E) TS

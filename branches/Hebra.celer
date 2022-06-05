@@ -16,12 +16,12 @@ Hebra:
 - _Warp::Shrine::ShadaNaw:
     line-color: cyan
 - _Shrine::GomaAsaagh:
-    notes: claymore if forgot the earlier one
+    notes: claymore for ganon
     var-change:
       FireArrow: -1
 - _Shrine::LannoKooh
 - .dir(NE):
-    notes: Cryo block out or you will have to eat. Use hammer to hit snowball (stasis 3 hits + stasis 3 hits)
+    notes: Cryo block out or you will have to eat. Throw snowball and let it roll down. Stasis it in front of the door (leave some space), statis MAX
 - _Shrine::GeeHarah
 
 - .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:

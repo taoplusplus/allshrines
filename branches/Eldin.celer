@@ -13,22 +13,17 @@ Eldin:
 - .dir(S>>) Slight Turn + .dir(W):
     coord: [956,-812.210757240352]
 - _Shrine::NamikaOzz
-- wb to shock arrow + snap
-- wb to scale
+- +wb to shock arrow + snap
+- +wb to scale
 - _Chest<Dinraal Scale>:
     coord: [-194,-1220.050312348731]
-- +WB above tower
-- _Chest<5 Fire Arrows>:
-    coord: [-247,-1199.535258260134]
-    var-change:
-      FireArrow: 5
-- +SQ to docks
+- +WB to docks
 - _Equipment::Weapon<Flameblade>:
     coord: [-267,-1133.0158464090491]
     var-change:
       Weapons: 1
     comment: .v(Weapons)/8 Weapons
-- Run to shrine
+- +Run to shrine
 - _Shrine::SaasKosah
 
 - +Run up:
