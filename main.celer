@@ -1,10 +1,10 @@
 _project: 
-  name: All Shrines 3
+  name: All Shrines
   authors:
     - iTNTPiston
-  version: "3.0"
-  description: All Shrines v3. Based on BingsF 2.5,  Johnny's WR, and meiju's idea 
-  url: "https://github.com/iTNTPiston/as3"
+  version: "2.6"
+  description: All Shrines v2.6. Based on BingsF 2.5,  Johnny's WR, and meiju's idea 
+  url: "https://github.com/iTNTPiston/as3/v26"
 
 _config:
   split-format:
