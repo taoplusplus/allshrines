@@ -8,8 +8,161 @@ _project:
   version: 0.1.0
 _route:
   - Plateau:
-    - __use__ Plateau
-  - Kakatenotide:
-    - __use__ Branch 1
-  - MirroSaasVaquot:
-    - __use__ Branch 2
+    - _Shrine::JaBaij
+    - _Tower::GreatPlateau
+    - _Shrine::OmanAu
+    - _Shrine::OwaDaim
+    - _Shrine::KehNamut
+    - Paraglider:
+        coord: [-809.33, 263.58, 1964.35]
+  - Branch 1:
+    - _Shrine::BoshKala
+    - _Shrine::WahgoKatta
+    - _Shrine::HilaRao
+    - _Shrine::KayaWan
+    - _Shrine::DakaTuss
+    - _Shrine::TalohNaeg
+    - _Shrine::LaknaRokee
+    - _Shrine::DowNaeh
+    - _Shrine::KamUrog
+    - _Shrine::TotoSah
+    - _Shrine::HaDahamar
+    - _Shrine::ReeDahee
+    - _Shrine::SheeVaneer
+    - _Shrine::SheeVenath
+    - _Shrine::ShodaSah
+    - _Shrine::ShaiUtoh
+    - _Shrine::QukahNata
+    - _Shrine::TawaJinn
+    - _Shrine::MyahmAgana
+    - _Shrine::MuwoJeem
+    - _Shrine::ChaasQeta
+    - _Shrine::KorguChideh
+    - _Shrine::KahYah
+    - _Shrine::YahRin
+  - Branch 2:
+    - _Warp::Shrine::DowNaeh:
+        line-color: yellow
+    - _Shrine::MezzaLo
+    - _Shrine::SohKofi
+    - _Shrine::ShehRata
+    - _Shrine::MirroShaz
+    - _Shrine::NamikaOzz
+    - _Shrine::SaasKosah
+    - _Shrine::KuhnSidajj
+    - _Shrine::MonyaToma
+    - _Shrine::MaagNorah
+    - _Shrine::AkhVaquot
+    - _Shrine::BareedaNaag
+    - _Shrine::VooLota
+    - _Shrine::ShaWarvo
+    - _Shrine::MakaRah
+    - _Shrine::MozoShenno
+    - _Shrine::ShadaNaw
+    - _Shrine::GomaAsaagh
+    - _Shrine::LannoKooh
+    - _Shrine::GeeHarah
+    - _Shrine::RinOyaa
+    - _Shrine::RonaKachta
+  - Branch 3:
+    - _Warp::Shrine::AkhVaquot:
+        line-color: red
+    - _Shrine::KahOkeo
+    - _Shrine::TenaKosah
+    - _Shrine::KeehaYoog
+    - _Shrine::KemaKosassa
+    - _Shrine::KemaZoos
+    - _Shrine::ThoKayu
+    - _Shrine::HawaKoth
+  - Branch 4:
+    - _Warp::Shrine::KeehaYoog:
+        line-color: lime
+    - _Shrine::KuhTakkar
+    - _Shrine::ShoDantu
+    - _Shrine::SasaKai
+    - _Shrine::DaqoChisay
+    - _Shrine::RaqaZunzo
+    - _Shrine::DakoTah
+    - _Shrine::KayNoh
+    - _Shrine::KorshOhu
+    - _Shrine::MisaeSuma
+    - _Shrine::DilaMaag
+    - _Shrine::SumaSahma
+    - _Shrine::IshtoSoh
+    - _Shrine::ShoqaTatone
+    - _Shrine::KaoMakagh
+    - _Shrine::PumaagNitae
+    - _Shrine::ShaeKatha
+    - _Shrine::YaNaga
+  - Branch 5:
+    - _Warp::Shrine::KuhTakkar:
+        line-color: magenta
+    - _Shrine::MijahRokee
+    - _Shrine::MoggLatan
+    - _Shrine::ShaeLoya
+    - _Shrine::TohYahsa
+    - _Shrine::DunbaTaag
+  - Branch 6:
+    - _Warp::Shrine::ShadaNaw:
+        line-color: purple
+    - _Shrine::HiaMiu
+    - _Shrine::ToQuomo
+  - Branch 7:
+    - _Warp::Shrine::ShadaNaw:
+        line-color: cyan
+    - _Shrine::RokUwog
+    - _Shrine::ShaGehma
+    - _Shrine::QazaTokki
+    - _Shrine::KetohWawai
+  - Branch 8:
+    - _Warp::Shrine::KuhnSidajj:
+        line-color: orange
+    - _Shrine::DaagChokah
+    - _Shrine::KeoRuug
+    - _Shrine::MaagHalan
+    - _Shrine::ShaeMosah
+    - _Shrine::ShoraHah
+    - _Shrine::GoraeTorr
+    - _Shrine::ZunaKai
+    - _Shrine::TuKaloh
+  - Branch 9:
+    - _Warp::Shrine::ShaeMosah:
+        line-color: hotpink
+    - _Shrine::DaqaKoh
+    - _Shrine::KayraMah
+    - _Shrine::QuaRaym
+    - _Shrine::TahMuhl
+    - _Shrine::MoaKeet
+    - _Shrine::SahDahaj
+    - _Shrine::ZeKasho
+    - _Shrine::DahHesho
+    - _Shrine::KenaiShakah
+    - _Shrine::KahMael
+    - _Shrine::RitaagZumo
+    - _Shrine::KatosaAug
+    - _Shrine::TutsuwaNima
+  - Branch 10:
+    - _Warp::TechLab::Hateno:
+        line-color: turquoise
+    - _Shrine::TahnoOah
+    - _Shrine::JitanSami
+    - _Shrine::NeezYohma
+    - _Shrine::DagahKeek
+    - _Shrine::RuccoMaag
+    - _Shrine::ShaiYota
+  - Branch 11:
+    - _Warp::Shrine::KuhTakkar:
+        line-color: orangered
+    - _Shrine::JolooNah
+    - _Shrine::JeeNoh
+    - _Shrine::DahKaso
+    - _Shrine::RotaOoh
+    - _Shrine::KaamYatak
+    - _Shrine::SheemDagoze
+    - _Shrine::ZaltaWa
+    - _Shrine::NoyaNeha
+    - _Shrine::KatahChuki
+    - .boss(Ganon):
+        split-type: UserDefined
+        icon: calamity
+        coord: [-254.00, 191.01, -1061.37]
