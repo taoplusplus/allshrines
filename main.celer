@@ -7,15 +7,16 @@ _project:
   url: ""
   version: 0.1.0
 _route:
-  - Plateau:
+  - Branch 1:
     - _Shrine::JaBaij
     - _Tower::GreatPlateau
     - _Shrine::OmanAu
     - _Shrine::OwaDaim
     - _Shrine::KehNamut
     - Paraglider:
+        split-type: UserDefined
+        icon: king
         coord: [-809.33, 263.58, 1964.35]
-  - Branch 1:
     - _Shrine::BoshKala
     - _Shrine::WahgoKatta
     - _Shrine::HilaRao
