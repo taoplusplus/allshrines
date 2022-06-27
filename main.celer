@@ -2,7 +2,7 @@ _project:
   name: All Shrines
   authors:
     - iTNTPiston
-  version: "3"
+  version: "3.1"
   description: All Shrines v3. WIth Infinity SCW
   url: "https://github.com/iTNTPiston/as3"
 
@@ -29,8 +29,9 @@ _route:
     - _Shrine::WahgoKatta
     - _Shrine::HilaRao
     - _Shrine::KayaWan
+    - sell ruby buy 3 frogs
     - _Shrine::DakaTuss
-    - impa, 2 hearts, buy arrows
+    - kak stuff, sell 290 fairies
     - _Shrine::TalohNaeg
     - _Shrine::LaknaRokee
     - _Shrine::MezzaLo
@@ -41,8 +42,7 @@ _route:
     - _Shrine::ReeDahee
     - _Shrine::SheeVaneer
     - _Shrine::SheeVenath
-    - shock arrow
-    - dragon farming
+    - farm 1 scale
     - _Shrine::ShodaSah
     - _Shrine::ShaiUtoh
     - _Shrine::QukahNata
@@ -51,44 +51,9 @@ _route:
     - _Shrine::MuwoJeem
     - _Shrine::KahYah
     - _Shrine::YahRin
-    - _Shrine::KorguChideh
     - _Shrine::ChaasQeta
-    - _Warp::Shrine::KehNamut:
-        line-color: yellow
-    - _Shrine::MoggLatan
-    - _Shrine::TenaKosah
-    - _Shrine::AkhVaquot
-    - 5 hearts (10 hearts now)
-    - _Shrine::BareedaNaag
-    - _Shrine::VooLota
-    - _Shrine::KahOkeo
-    - _Warp::Shrine::MoggLatan:
-        line-color: "#00ff00"
-    - _Shrine::KeehaYoog
-    - 5 fire arrows
-    - _Shrine::KuhTakkar
-    - infinity scw
-    - _Shrine::RaqaZunzo
-    - _Shrine::DaqoChisay
-    - _Shrine::KemaZoos
-    - _Shrine::ThoKayu
-    - _Shrine::HawaKoth
-    - _Warp::Shrine::KuhTakkar:
-        line-color: red
-    - infinity scw
-    - _Shrine::ShoqaTatone
-    - _Shrine::KaoMakagh
-    - _Shrine::PumaagNitae
-    - _Shrine::ShaeKatha
-    - _Warp::Shrine::AkhVaquot:
-        line-color: "#00ff00"
-    - 4 stam
-    - _Shrine::ShaWarvo
-    - _Shrine::MakaRah
-    - _Shrine::MozoShenno
-    - _Shrine::ShadaNaw
-    - _Shrine::HiaMiu
-    - _Shrine::ToQuomo
+    - smuggle 5 fairies
+    - _Shrine::KorguChideh
     - _Warp::Shrine::MezzaLo:
         line-color: yellow
     - _Shrine::SohKofi
@@ -100,15 +65,8 @@ _route:
     - _Shrine::DaagChokah
     - _Shrine::KeoRuug
     - _Shrine::MaagHalan
-    - _Shrine::ShaeMosah
-    - _Shrine::ShoraHah
-    - _Shrine::GoraeTorr
-    - _Shrine::ZunaKai
-    - _Shrine::TuKaloh
-    - _Warp::Shrine::ShaeMosah:
-        line-color: "#00ff00"
-    - _Shrine::DaqaKoh
     - _Shrine::KayraMah
+    - _Shrine::DaqaKoh
     - _Shrine::QuaRaym
     - _Shrine::TahMuhl
     - _Shrine::MoaKeet
@@ -120,29 +78,44 @@ _route:
     - _Shrine::RitaagZumo
     - _Shrine::KatosaAug
     - _Shrine::TutsuwaNima
-    - _Warp::Shrine::KuhTakkar:
-        line-color: cyan
-    - _Shrine::MijahRokee
-    - _Shrine::ShaeLoya
-    - _Shrine::TohYahsa
-    - _Shrine::DunbaTaag
+    - _Warp::Shrine::DaqaKoh:
+        line-color: "#00ff00"
+    - _Shrine::ShaeMosah
+    - _Shrine::ShoraHah
+    - _Shrine::GoraeTorr
+    - _Shrine::ZunaKai
+    - _Shrine::TuKaloh
+    - _Warp::Shrine::KehNamut:
+        line-color: yellow
+    - _Shrine::MoggLatan
+    - _Shrine::KahOkeo
+    - _Shrine::TenaKosah
+    - _Shrine::AkhVaquot
+    - _Shrine::BareedaNaag
+    - _Shrine::VooLota
+    - _Shrine::ShaWarvo
+    - _Shrine::MakaRah
+    - _Shrine::MozoShenno
+    - _Shrine::ShadaNaw
+    - _Shrine::HiaMiu
+    - _Shrine::ToQuomo
     - _Warp::Shrine::ShadaNaw:
         line-color: red
     - _Shrine::RokUwog
     - _Shrine::ShaGehma
     - _Shrine::QazaTokki
     - _Shrine::KetohWawai
-    - _Warp::Shrine::ShadaNaw:
-        line-color: yellow
-    - _Shrine::GomaAsaagh
-    - _Shrine::LannoKooh
-    - _Shrine::GeeHarah
-    - _Shrine::RinOyaa
-    - _Shrine::MonyaToma
-    - _Shrine::MaagNorah
-    - _Shrine::RonaKachta
+    - _Warp::Shrine::MoggLatan:
+        line-color: "#00ff00"
+    - _Shrine::KeehaYoog
+    - _Shrine::KuhTakkar
+    - _Shrine::RaqaZunzo
+    - _Shrine::DaqoChisay
+    - _Shrine::KemaZoos
+    - _Shrine::ThoKayu
+    - _Shrine::HawaKoth
     - _Warp::Shrine::KeehaYoog:
-        line-color: yellow
+        line-color: red
     - _Shrine::KemaKosassa
     - _Shrine::ShoDantu
     - _Shrine::SasaKai
@@ -153,7 +126,26 @@ _route:
     - _Shrine::DilaMaag
     - _Shrine::SumaSahma
     - _Shrine::IshtoSoh
+    - _Shrine::ShaeKatha
+    - _Shrine::ShoqaTatone
+    - _Shrine::KaoMakagh
+    - _Shrine::PumaagNitae
     - _Shrine::YaNaga
+    - _Warp::Shrine::KuhTakkar:
+        line-color: cyan
+    - _Shrine::MijahRokee
+    - _Shrine::ShaeLoya
+    - _Shrine::TohYahsa
+    - _Shrine::DunbaTaag
+    - _Warp::Shrine::ShadaNaw:
+        line-color: "#00ff00"
+    - _Shrine::GomaAsaagh
+    - _Shrine::LannoKooh
+    - _Shrine::GeeHarah
+    - _Shrine::RinOyaa
+    - _Shrine::MonyaToma
+    - _Shrine::MaagNorah
+    - _Shrine::RonaKachta
     - _Warp::Shrine::TawaJinn:
         line-color: yellow
     - _Shrine::MyahmAgana
@@ -180,3 +172,27 @@ _route:
     - _Shrine::NoyaNeha
     - Updraft + .dir(SE)
     - _Shrine::KatahChuki
+    - Castle:
+        split-type: UserDefined
+        icon: calamity
+    - Blights:
+        split-type: UserDefined
+        icon: calamity
+        coord: [-253.75,-1066.3135837163095]
+        hide-icon-on-map: true
+        notes: >
+          Skip Windblight; 
+          EOD on water + wake up shot; 
+          EOD for phase 1 Fire (should have 1 hit left); Boomerang + Claymore for phase 2
+          Claymore for phase 1 Thunder + EOD throw in the end; Boomerang + Claymore for phase 2
+    - Calamity:
+        split-type: UserDefined
+        icon: calamity
+        coord: [-253.75,-1066.3135837163095]
+        hide-icon-on-map: true
+        notes: Parry + spin with claymore phase 1. Get claymore for stunlock
+    - Dark Beast:
+        split-type: UserDefined
+        icon: ganon
+        coord: [-253.75,-1066.3135837163095]
+        hide-icon-on-map: true
