@@ -1,21 +1,27 @@
 Plateau:
 - SOR Clip get TOD:
     notes: "Food options before torch: 1 or 3 shrooms, and 2 apples"
-- _Equipment::Weapon<Torch>:
-    coord: [-951.5054733597826,1875]
+- Grab 1 shroom
+- Grab Tree Branch:
     var-change:
-      Weapons: 1
-    comment: Next to old man, jump grab
-- Whistle spring to camp
+      Weapon: 1
+    notes: For 2 FDC instances and IST. DO NOT BREAK. If you broke it, get backup torch at old man's hut
+- Whistle spring to camp:
+    notes: Whistle sprint so bokos start walking toward you
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
-- Grab food, surf down:
+    notes: Keep this pot lid for eventide
+- Grab food:
     notes: 4 shrooms, 6 peppers, steak
+- .!!(KEEP 2 SHROOM 2 PEPPER)
+- Surf Down + Clip
 - _Chest<Traveller's Bow>:
     coord: [-832.43, 222.00, 1963.11]
 - 5 Arrows:
     var-change:
       Arrow: 5
+    notes: These are all you get before ganon. 
+           1 for boulder launch (pick up), 1 for kam urog, 1 for dragon, 1 for eventide, 1 for saas kosah, 0-1 left+5 in zelda's room + elemental for blights
 - BLSS to bombs
 - _Shrine::JaBaij
 
@@ -23,7 +29,8 @@ Plateau:
 - _Tower::GreatPlateau
 
 - WB over barrier to mag:
-    notes: Look down when doing FDC, so if you accidentally throw the torch, it doesn't fly too far
+    notes: Look down when doing FDC, so if you accidentally throw the tree branch, it doesn't fly too far. 
+           If your tree branch is badly damaged due to hitting the pot and you threw it, make sure get backup one-handed weapon
 - _Chest<Ruby>:
     coord: [-671.65, 171.79, 1522.61]
     var-change:

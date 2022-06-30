@@ -8,15 +8,16 @@ Central:
     - to: [-3112,888.7146730481127]
     notes: activate with amiibo
 - _Shrine::JolooNah
-- .dir(.S) Turn
+- .dir(.S) Turn or BLSS
 - _Shrine::JeeNoh
-- .dir(N>) TS
+- .dir(N>) TS or BLSS
 - _Shrine::DahKaso
 - Cryo + .dir(N>) + .dir(N) midairs
 - _Shrine::RotaOoh
-- .dir(NE) super
+- BLSS
 - _Shrine::KaamYatak
-- .dir(<N) + .dir(NW) + .dir(W)
+- .dir(<N) + .dir(NW) + .dir(W):
+    notes: if you have ice arrow and is day time, can btb. not sure if night time btb is faster than wb
 - _Shrine::SheemDagoze
 - .dir(N>) TS
 - _Shrine::ZaltaWa
@@ -25,32 +26,38 @@ Central:
 - Updraft + .dir(SE)
 - _Shrine::KatahChuki
 
-- +.dir(N) midairs
+- +.dir(<E) Turn super + .dir(N>) super
+- _Chest<3 AA>:
+    coord: [-254.5,-741.9742687822863]
+- Climb up + .dir(<N) Turn
 - _Equipment::Bow<Royal Guard Bow>:
     coord: [-333,-995.5355553803038]
 - _Equipment::Weapon<EOD>:
-    notes: Should have EOD, 2 Claymores, Boomerang for fights. 
+    notes: Should have old EOD, new EOD, Claymore, Boomerang for fights. 
 - 5 Arrows:
     var-change:
       Arrow: 5
 - WB to scantum
 - __use__ CheckWoodAndArrows
+- Castle:
+    split-type: UserDefined
+    icon: calamity
 - Blights:
     split-type: UserDefined
-    icon: ganon
+    icon: calamity
     coord: [-253.75,-1066.3135837163095]
     hide-icon-on-map: true
     notes: >
       Skip Windblight; 
-      EOD on water + wake up shot; 
-      EOD for phase 1 Fire (should have 1 hit left); Boomerang + Claymore for phase 2
-      Claymore for phase 1 Thunder + EOD throw in the end; Boomerang + Claymore for phase 2
+      new EOD on water + wake up shot, RC finish (same as any%);
+      new EOD for phase 1 Fire; Boomerang + Claymore for phase 2
+      Claymore for phase 1 Thunder + new EOD throw in the end; Boomerang + old EOD for phase 2
 - Calamity:
     split-type: UserDefined
-    icon: ganon
+    icon: calamity
     coord: [-253.75,-1066.3135837163095]
     hide-icon-on-map: true
-    notes: Parry + spin with 2nd claymore phase 1 + throw 1st claymore. Get another claymore for stunlock. Start stunlock with 2nd claymore and finish with 3rd claymore
+    notes: Phase 1 Flurry + 8BA + Parry + spin with claymore + throw+ 6AA. Start stunlock with old EOD and finish with new claymore
 - Dark Beast:
     split-type: UserDefined
     icon: ganon
