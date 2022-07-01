@@ -28,7 +28,7 @@ Lurelin:
     notes: Make sure you keep 2 shrooms and 2 peppers. Eat endura shroom if you have to
 - +_Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
-- +_Shop<3 Carrot 1 Gut 2 Butter>:
+- +_Shop<3 Carrot 1 Gut>:
     var-change:
       Rupee: -140
     notes: .v(Rupee) rupee left
@@ -36,19 +36,19 @@ Lurelin:
 - +_Cook<1 Speed>:
     comment: 3 Frog + Carrot + Gut
 - +_Cook<3 Endura>:
-    notes: Faster to only have 2 endura left. If you have all 6 shrooms, cook 2 of them into one meal
+    notes: Faster to only have 2 endura left. If you have all 6 shrooms, cook 2 of them into one meal (or just cook 4)
 - +_Tod::Night
 - +_Equipment::Shield<Pot Lid>:
     hide-icon-on-map: true
-    notes: After campfire, grab this shield, and you should get an autosave.
+    notes: After campfire, grab this shield, and you should get an autosave. Use shroom, pepper, endura, butterfly, carrot
            Import .link([this simulator file]https://github.com/iTNTPiston/as3/blob/main/IST.txt)
            to .link([the simulator]https://dupl.itntpiston.app/#options) to see the steps for IST
 - +Do IST:
     var-change:
-      Rupee: 20 # just an estimate from the things sold
-- Sell 320+ Fairy:
+      Rupee: 30 # from the things sold
+- Sell 315+ Fairy:
     var-change:
-      Rupee: 640
+      Rupee: 630
 - +_Shop<20 Fire Arrow>:
     coord: [1827,1039.9681091017883]
     var-change:
@@ -67,7 +67,7 @@ Lurelin:
     comment: Get Shield inside
 
 - SCW to Lakna Rokee:
-    notes: Shield surf, EOD inside shrine. Want to use EOD over hammer since need hammer to break rocks
+    notes: Shield surf, EOD inside shrine. Only use EOD for cutting trees, as we need this for blights
 - _Shrine::LaknaRokee:
     var-change:
       Weapons: 1

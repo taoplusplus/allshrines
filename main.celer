@@ -15,8 +15,9 @@ _config:
 _route:
   - Plateau: __use__ Plateau
   - Lurelin: __use__ Lurelin
-  - Woodland + Eldin:
+  - Woodland:
     -  __use__ KorokForest
+  - Eldin:
     -  __use__ Eldin
   - Gerudo: 
     - __use__ Gerudo
@@ -26,6 +27,7 @@ _route:
     - __use__ Rito
   - Hebra:
     - __use__ Hebra
-  - Lanayru: __use__ ZD
+    - __use__ ZD
+    - __use__ HebraSouth
   - Central: __use__ Central
 

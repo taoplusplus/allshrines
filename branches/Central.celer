@@ -33,10 +33,7 @@ Central:
 - _Equipment::Bow<Royal Guard Bow>:
     coord: [-333,-995.5355553803038]
 - _Equipment::Weapon<EOD>:
-    notes: Should have old EOD, new EOD, Claymore, Boomerang for fights. 
-- 5 Arrows:
-    var-change:
-      Arrow: 5
+    notes: Should have old EOD, new EOD, Claymore, Boomerang for fights. If you don't have enough elemental for blights, pick up 5 arrow here
 - WB to scantum
 - __use__ CheckWoodAndArrows
 - Castle:
@@ -49,9 +46,9 @@ Central:
     hide-icon-on-map: true
     notes: >
       Skip Windblight; 
-      new EOD on water + wake up shot, RC finish (same as any%);
-      new EOD for phase 1 Fire; Boomerang + Claymore for phase 2
-      Claymore for phase 1 Thunder + new EOD throw in the end; Boomerang + old EOD for phase 2
+      old EOD on water + wake up shot, RC finish (same as any%);
+      new EOD for phase 1 Fire first 2 spins. then old EOD last 3 hits; Boomerang + Claymore for phase 2
+      Claymore for phase 1 Thunder + old EOD throw in the end; Boomerang + new EOD for phase 2
 - Calamity:
     split-type: UserDefined
     icon: calamity

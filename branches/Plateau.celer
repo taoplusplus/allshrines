@@ -21,7 +21,7 @@ Plateau:
     var-change:
       Arrow: 5
     notes: These are all you get before ganon. 
-           1 for boulder launch (pick up), 1 for kam urog, 1 for dragon, 1 for eventide, 1 for saas kosah, 0-1 left+5 in zelda's room + elemental for blights
+           1 for boulder launch (pick up), 1 for kam urog, 1 for dragon, 1 for eventide, 1 for saas kosah, 0-1 left+elemental for blights
 - BLSS to bombs
 - _Shrine::JaBaij
 
