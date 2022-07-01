@@ -25,9 +25,9 @@ _route:
   - Tabantha:
     - __use__ Bloodmoon
     - __use__ Rito
-  - Hebra:
+  - Hebra + Lanayru:
     - __use__ Hebra
-    - __use__ ZD
     - __use__ HebraSouth
+    - __use__ ZD
   - Central: __use__ Central
 
