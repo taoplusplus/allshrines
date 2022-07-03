@@ -14,7 +14,7 @@ Eldin:
 - _Shrine::MoaKeet
 - .dir(.N) Turn
 - _Shrine::SahDahaj
-- .dir(N) + .dir(N) + .dir(<N)
+- .dir(N) + run + .dir(<N)
 - _Shrine::ZeKasho
 - .dir(.E) TS + .dir(SE)
 - _Shrine::DahHesho
