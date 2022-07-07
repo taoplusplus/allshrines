@@ -1,9 +1,9 @@
 Rito:
 - _Warp::Shrine::ShaeLoya:
     line-color: red
-- .dir(.N) Turn + .dir(N) + .dir(N)
+- .dir(.W) Turn + .dir(W) + .dir(W)
 - _Shrine::TenaKosah
-- .dir(.E) DT
+- .dir(.W) DT
 - _Shrine::KahOkeo
 - _Warp::Shrine::TenaKosah
 - _Tod::Noon:

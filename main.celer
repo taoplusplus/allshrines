@@ -13,6 +13,7 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
+  - (==) I made a commentated video guide/runthough of this route. Check it out .link([here]https://youtu.be/QEDwCbvwDQw)
   - Plateau: __use__ Plateau
   - Lurelin: __use__ Lurelin
   - Woodland:

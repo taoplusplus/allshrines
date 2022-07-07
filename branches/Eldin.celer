@@ -14,7 +14,7 @@ Eldin:
 - _Shrine::MoaKeet
 - .dir(.N) Turn
 - _Shrine::SahDahaj
-- .dir(N) + run + .dir(<N)
+- .dir(E) + run + .dir(<E)
 - _Shrine::ZeKasho
 - .dir(.E) TS + .dir(SE)
 - _Shrine::DahHesho
@@ -37,9 +37,10 @@ Eldin:
     line-color: red
 - .dir(W>>) Turn
 - _Shrine::ShaeMosah
-- .dir(<E) Turn
+- .dir(<N) Turn
 - _Shrine::ShoraHah
-- BLSS + wb
+- BLSS + wb:
+    notes: Can also use the minecart + wbs (old strat)
 - _Shrine::GoraeTorr
 - .dir(E) Turn
 - _Shrine::ZunaKai
