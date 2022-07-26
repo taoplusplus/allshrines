@@ -1,7 +1,7 @@
 Hebra:
 - _Warp::Shrine::ShadaNaw:
     line-color: yellow
-- .dir(N>) + .dir(N) Turn right
+- .dir(E>) + .dir(E) Turn right
 - _Shrine::RokUwog
 - .dir(N) + .dir(<E) Turn Midairs:
     coord: [-2386,-3399.7266494439036]
