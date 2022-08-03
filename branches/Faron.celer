@@ -1,0 +1,32 @@
+Faron: # Start: Jitan Sami
+- Infinity SCW:
+    notes: Sign activate
+- _Shrine::TawaJinn
+- .dir(NW) super + .dir(W) Turn
+- _Shrine::TotoSah:
+    var-change:
+      Hammer: -1
+- .dir(<N) Turn (super)
+- _Shrine::HaDahamar
+- .dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+
+- Shield Surf SCW
+- _Shrine::SheeVaneer
+- _Shrine::SheeVenath
+- BLSS 
+- _Shrine::QukahNata
+- .dir(<N) + .dir(W):
+    coord: [1740,2981.200060914244]
+- _Material<Farosh Scale>:
+    notes: Make morning to make him spawn
+    var-change:
+      Wood: -1
+      FireArrow: -1
+- _Shrine::ShodaSah
+- BLSS
+- _Shrine::ShaiUtoh:
+    var-change:
+      Hammer: -1
+- __use__ CheckResources
+- ""

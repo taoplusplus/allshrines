@@ -1,12 +1,11 @@
-Gerudo:
-- _Warp::Shrine::KehNamut:
-    line-color: yellow
+Gerudo: # Start: Keh Namut
+
 - BLSS + .dir(N) + .dir(N) midair
 - _Shrine::MoggLatan
-- BLSS + 2 WB + glide up:
+- BLSS + 2 WB .dir(W) + glide up:
     notes: Get 1 wood from tree if you only have 2 (i.e. no extra wood from tree)
     var-change:
-      Wood: 1
+      EOD: -2
 - _Shrine::KeehaYoog:
     comment: 1 Shock Arrow activate
 - BLSS:
@@ -16,15 +15,17 @@ Gerudo:
     var-change:
       FireArrow: -7
     coord: [-3122.5,1326.4799939085751]
-- _Shrine::KuhTakkar
-- __use__ CheckWoodAndArrows
-- Infinity SCW:
-    notes: use ice -> shock. Can use all ice arrows here if need
+- _Shrine::KuhTakkar:
+    notes: Use EOD for ice block
     var-change:
-      IceArrow: -1
+      EOD: -3
+- Infinity SCW:
+    notes: cut tree BLSS. use ice -> shock. Can use all ice arrows here if need
+    var-change:
+      EOD: -1
 - _Shrine::RaqaZunzo:
     comment: Radiant Shield
-- .dir(N) no turn super
+- .dir(N) no turn, super
 - _Shrine::DaqoChisay
 - BLSS
 - _Shrine::KemaZoos
@@ -37,5 +38,6 @@ Gerudo:
 - BLSS
 - _Shrine::HawaKoth:
     notes: clip through
-
+- __use__ CheckResources
+- ""
 

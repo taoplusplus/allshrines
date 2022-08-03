@@ -1,6 +1,4 @@
-CheckSlots:
-  .v(Weapons)/8 Weapons
-CheckWoodAndArrows:
-  .v(Wood) wood left:
-    notes: .v(Arrow) Normal Arrow; .v(IceArrow) Ice; .v(FireArrow) Fire
+CheckResources:
+  Check Resources =>:
+    notes: .v(FireArrow) Fire Arrows; .v(Wood) Wood; .v(Hammer) Hammer Durability; .v(EOD) EOD Durability
   

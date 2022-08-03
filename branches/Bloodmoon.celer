@@ -1,7 +1,4 @@
-Bloodmoon:
-- _Warp::Shrine::KuhTakkar:
-    line-color: "#00ff00"
-
+Bloodmoon: # Start: KT
 - Shield Surf SCW:
     notes: If you have no wood, last chance to get 1 wood
 - .dir(N) Turn + BLSS:
@@ -10,11 +7,13 @@ Bloodmoon:
 - _Shrine::MijahRokee
 - .dir(<N) Turn
 - _Shrine::ShaeLoya
+- .!!(6 Hits on Each Orb):
+    notes: Otherwise, your hammer will break early
 - .dir(<<E) TS to red
 - .dir(NW) to orange
 - .dir(S) to green:
     var-change:
-      Weapons: -1
+      Hammer: -12
 - _Shrine::TohYahsa
 - .dir(N) + midairs
 - _Shrine::DunbaTaag

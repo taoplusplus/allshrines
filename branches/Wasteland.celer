@@ -1,7 +1,4 @@
-Wasteland:
-- _Warp::Shrine::KeehaYoog:
-    line-color: "red"
-
+Wasteland: # Start: Keeha Yoog
 - BLSS:
     movements:
     - to: [-3928,532.6861495118246]
@@ -9,7 +6,9 @@ Wasteland:
     notes: or 3 wb chain
 - _Shrine::KemaKosassa
 - BLSS
-- _Shrine::ShoDantu
+- _Shrine::ShoDantu:
+    var-change:
+      Hammer: -1
 - Shield Surf SCW
 - .dir(S) LOOK UP
 - Campfire Activate:
@@ -24,10 +23,9 @@ Wasteland:
 - _Shrine::KayNoh
 - .dir(E>) + .dir(S)
 - _Shrine::KorshOhu:
-    notes: make noon during the orbs. Earliest is before first orb. Use fire chu to save arrows unless that's the only chu left
+    notes: make noon during the orbs. Earliest is before first orb. Can use fire chu to save arrows unless that's the only chu left
     var-change:
       Wood: -1
-- __use__ CheckWoodAndArrows
 - .dir(S) + BLSS
 - Clip in
 - _Shrine::MisaeSuma
@@ -46,6 +44,7 @@ Wasteland:
     notes: use shock -> fire
     var-change:
       FireArrow: -1
+      EOD: -1 # cut tree
 - _Shrine::ShoqaTatone
 - .dir(E) + .dir(E) + .dir(N>)
 - _Shrine::KaoMakagh
@@ -53,4 +52,5 @@ Wasteland:
 - _Shrine::PumaagNitae
 - .dir(W>) Turn + .dir(W>>) Turn
 - _Shrine::YaNaga
-- __use__ CheckWoodAndArrows
+- __use__ CheckResources
+- ""

@@ -1,10 +1,11 @@
-Rito:
-- _Warp::Shrine::ShaeLoya:
-    line-color: red
+Rito: # Start: Shae Lota
 - .dir(.W) Turn + .dir(W) + .dir(W)
 - _Shrine::TenaKosah
 - .dir(.W) DT
-- _Shrine::KahOkeo
+- _Shrine::KahOkeo:
+    var-change:
+      EOD: -1
+    notes: Use EOD on slab
 - _Warp::Shrine::TenaKosah
 - _Tod::Noon:
     var-change:
@@ -51,10 +52,8 @@ Rito:
 - .dir(E)
 - Clip into mountain
 - _Shrine::ToQuomo:
-    notes: Get claymore. .v(Weapons)/8 Weapons
-    var-change:
-      Weapons: 1
+    notes: Get claymore. 
 
-- __use__ CheckSlots
-- __use__ CheckWoodAndArrows
+- __use__ CheckResources
+- ""
 

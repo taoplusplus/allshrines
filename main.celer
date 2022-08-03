@@ -2,8 +2,8 @@ _project:
   name: All Shrines
   authors:
     - iTNTPiston
-  version: "3.2"
-  description: All Shrines v3. WIth Infinity SCW
+  version: "3.3"
+  description: All Shrines v3. With Infinity SCW
   url: "https://github.com/iTNTPiston/as3"
 
 _config:
@@ -13,22 +13,54 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - (==) I made a commentated video guide/runthough of this route. Check it out .link([here]https://youtu.be/QEDwCbvwDQw)
+  - "(==) This is the WIP new route with Eventide and Tawa Jinn SCW. If you are looking for the route with a commentated guide: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/v32)"
   - Plateau: __use__ Plateau
-  - Lurelin: __use__ Lurelin
-  - Woodland:
-    -  __use__ KorokForest
+  - Korok Forest:
+    - __use__ Kakariko
+    - __use__ KorokForest
   - Eldin:
-    -  __use__ Eldin
-  - Gerudo: 
+    - __use__ EldinSouth
+    - _Warp::Shrine::DaqaKoh:
+        line-color: yellow
+    - __use__ EldinNorth
+  - Lanayru Faron:
+    - _Warp::Shrine::MezzaLo:
+        line-color: yellow
+    - __use__ ZD
+    - _Warp::Shrine::MezzaLo:
+        line-color: "#00ff00"
+    - __use__ Lurelin
+    - _Warp::Shrine::JitanSami:
+        line-color: cyan
+    - __use__ Faron
+  - Gerudo:
+    - _Warp::Shrine::KehNamut:
+        line-color: yellow
     - __use__ Gerudo
+    - _Warp::Shrine::KeehaYoog:
+        line-color: red
     - __use__ Wasteland
   - Tabantha:
+    - _Warp::Shrine::KuhTakkar:
+        line-color: "#00ff00"
     - __use__ Bloodmoon
+    - _Warp::Shrine::ShaeLoya:
+        line-color: red
     - __use__ Rito
-  - Hebra + Lanayru:
-    - __use__ Hebra
+  - Hebra:
+    - _Warp::Shrine::ShadaNaw:
+        line-color: yellow
+    - __use__ HebraNorth
+    - _Warp::Shrine::ShadaNaw:
+        line-color: "#00ff00"
     - __use__ HebraSouth
-    - __use__ ZD
-  - Central: __use__ Central
-
+  - Central:
+    - _Warp::Shrine::KuhTakkar:
+        line-color: cyan
+    - __use__ Central
+  - GG:
+    - Dark Beast:
+        split-type: UserDefined
+        icon: ganon
+        coord: [-253.75,-1066.3135837163095]
+        hide-icon-on-map: true
