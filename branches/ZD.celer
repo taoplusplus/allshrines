@@ -7,6 +7,7 @@ ZD: # Start: Mezza Lo
     var-change:
       Rupee: -80
     notes: .v(Rupee) rupees left
+    coord: [3326,-480]
 - _Shrine::NeezYohma
 - .dir(E):
    coord: [3087,-458.2024378756023]

@@ -21,7 +21,9 @@ Rito: # Start: Shae Lota
     notes: .v(FireArrow) Fire Arrows Left
 - Shield Surf SCW
 - _Shrine::VooLota:
-    notes: Rushroom activate. 
+    notes: Rushroom activate. (EOD on switch)
+    var-change:
+      EOD: -1
 
 - .dir(N>) Turn
 - _Shrine::ShaWarvo
