@@ -7,7 +7,8 @@ KorokForest: # Start: Lakna Rokee
 - .dir(N>) super + midair
 - _Shrine::MezzaLo
 - BLSS or WB .dir(<N) Turn
-- _Shrine::SohKofi
+- _Shrine::SohKofi:
+    notes: We don't get a metal bow in this run. If you are worried that your bow might burn in Eldin, grab the bow in chest in this shrine
 
 - BLSS:
     coord: [2189,-189.96315709896044]

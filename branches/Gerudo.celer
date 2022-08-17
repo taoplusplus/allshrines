@@ -25,7 +25,7 @@ Gerudo: # Start: Keh Namut
       EOD: -1
 - _Shrine::RaqaZunzo:
     comment: Radiant Shield
-- .dir(N) no turn, super
+- .dir(N) fast cardinal
 - _Shrine::DaqoChisay
 - BLSS
 - _Shrine::KemaZoos

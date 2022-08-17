@@ -19,7 +19,9 @@ Lurelin: # Start: Mezza Lo
     notes: If you get any extra wood from any of the 3 trees cut, no need to pick up extra wood
 - .dir(N.) + .dir(N) super + .dir(N) (super)
 - .dir(N>) Turn
-- _Shrine::TahnoOah
+- _Shrine::TahnoOah:
+    var-change:
+      Hammer: -1
 - +.dir(N) + .dir(N) midair:
     coord: [4187,1377.9397836456137]
 - +.dir(N) + .dir(W) + .dir(<W):

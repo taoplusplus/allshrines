@@ -1,6 +1,6 @@
 HebraNorth: # Start: SN
 
-- .dir(E>) + .dir(E) Turn right
+- .dir(E) DT (turn right)
 - _Shrine::RokUwog
 - .dir(N) + .dir(<E) Turn Midairs:
     coord: [-2386,-3399.7266494439036]

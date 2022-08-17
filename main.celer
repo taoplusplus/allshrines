@@ -26,12 +26,12 @@ _route:
   - Lanayru Faron:
     - _Warp::Shrine::MezzaLo:
         line-color: yellow
-    - __use__ ZD
+    - __use__ Lurelin
     - _Warp::Shrine::MezzaLo:
         line-color: "#00ff00"
-    - __use__ Lurelin
+    - __use__ ZD
     - _Warp::Shrine::JitanSami:
-        line-color: cyan
+        line-color: "#00ff00"
     - __use__ Faron
   - Gerudo:
     - _Warp::Shrine::KehNamut:

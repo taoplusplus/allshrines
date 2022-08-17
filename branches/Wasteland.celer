@@ -6,6 +6,7 @@ Wasteland: # Start: Keeha Yoog
     notes: or 3 wb chain
 - _Shrine::KemaKosassa
 - BLSS
+- Hammer luminous stone
 - _Shrine::ShoDantu:
     var-change:
       Hammer: -1
