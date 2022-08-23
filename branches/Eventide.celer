@@ -1,0 +1,35 @@
+Eventide: # Start: Mezza Lo
+- BLSS
+- _Shrine::MyahmAgana
+
+- .dir(NE) + .dir(E) super + .dir(<E) + .dir(<E)
+- _Shrine::TahnoOah
+
+- +.dir(N) + .dir(N) midair:
+    coord: [4187,1377.9397836456137]
+- +.dir(N) + .dir(W) + .dir(<W):
+    movements: 
+    - to: [4179,1267.8962060207286]
+    - to: [4049,1275.8993753025388]
+    - to: [3948,1343.9263141979218]
+- _Shrine::JitanSami
+
+- Infinity SCW:
+    notes: Land in shallow water and use cryo block. Shock -> Fire.
+- _Shrine::KorguChideh
+
+- Run + Glide off:
+    movements:
+    - to: [4772,3884.3993295080363]
+    - to: [3679,3330.1481639246085]
+      warp: true
+- _Shrine::MuwoJeem
+
+- Shield surf buffered scw
+- _Shrine::KahYah
+
+- .dir(<E) + .dir(N>>)
+- _Shrine::ChaasQeta
+
+
+

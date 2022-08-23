@@ -13,50 +13,59 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - "(==) This is the new route with Eventide and Tawa Jinn SCW. If you are looking for the route with a commentated guide: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/v32)"
+  - (==) This is the current (2022-07-23) world record run by .link([XiaoXiaMi]https://www.speedrun.com/user/XiaoXiaMi). .link([Video link]https://www.bilibili.com/video/BV11r4y177j3?zw)
+  - (==) Forked from .link([Piston's as3 route]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/)
   - Plateau: __use__ Plateau
-  - Korok Forest:
+  - Faron:
     - __use__ Kakariko
-    - __use__ KorokForest
-  - Eldin:
-    - __use__ EldinSouth
-    - _Warp::Shrine::DaqaKoh:
-        line-color: yellow
-    - __use__ EldinNorth
-  - Lanayru Faron:
-    - _Warp::Shrine::MezzaLo:
-        line-color: yellow
-    - __use__ Lurelin
-    - _Warp::Shrine::MezzaLo:
-        line-color: "#00ff00"
-    - __use__ ZD
-    - _Warp::Shrine::JitanSami:
-        line-color: "#00ff00"
     - __use__ Faron
-  - Gerudo:
-    - _Warp::Shrine::KehNamut:
+  - Korok Forest:
+    - _Warp::Shrine::DakaTuss:
         line-color: yellow
-    - __use__ Gerudo
-    - _Warp::Shrine::KeehaYoog:
-        line-color: red
-    - __use__ Wasteland
-  - Tabantha:
-    - _Warp::Shrine::KuhTakkar:
-        line-color: "#00ff00"
-    - __use__ Bloodmoon
-    - _Warp::Shrine::ShaeLoya:
-        line-color: red
+    - __use__ KorokForest
+  - Eldin North:
+    - __use__ EldinNorth
+  - Eventide:
+    - _Warp::Shrine::TawaJinn:
+        line-color: lime
+    - __use__ Eventide
+  - Eldin South:
+    - _Warp::Shrine::DaqaKoh:
+        line-color: magenta
+    - __use__ EldinSouth
+  - Zora's Domain:
+    - _Warp::Shrine::MezzaLo:
+        line-color: skyblue
+    - __use__ ZD
+  - Rito:
+    - _Warp::Shrine::KuhnSidajj:
+        line-color: plum
     - __use__ Rito
-  - Hebra:
-    - _Warp::Shrine::ShadaNaw:
-        line-color: yellow
-    - __use__ HebraNorth
-    - _Warp::Shrine::ShadaNaw:
-        line-color: "#00ff00"
+  - Hebra South:
     - __use__ HebraSouth
+  - Gerudo:
+    - _Warp::Shrine::AkhVaquot:
+        line-color: white
+    - __use__ Gerudo
+  - Wasteland:
+    - _Warp::Shrine::KeehaYoog:
+        line-color: cyan
+    - __use__ Wasteland
+  - Blood Moon:
+    - _Warp::Shrine::KuhTakkar:
+        line-color: tomato
+    - __use__ Bloodmoon
+  - Hebra Northwest:
+    - _Warp::Shrine::ShadaNaw:
+        line-color: red
+    - __use__ HebraNorthwest
+  - Hebra North:
+    - _Warp::Shrine::ShadaNaw:
+        line-color: dodgerblue
+    - __use__ HebraNorth
   - Central:
     - _Warp::Shrine::KuhTakkar:
-        line-color: cyan
+        line-color: lime
     - __use__ Central
   - GG:
     - Dark Beast:

@@ -1,17 +1,15 @@
 Plateau:
-- SOR Clip get TOD:
-    notes: "Food options before torch: 1 or 3 shrooms, and 2 apples"
-- Grab 1 shroom
-- Grab Tree Branch:
-    notes: For 2 FDC instances and IST. DO NOT BREAK. If you broke it, get a boko bat at cryo camp
-- Whistle spring to camp:
+- SOR Clip get TOD
+- 1 shroom
+- Tree Branch
+- 2 Apples
+- Woodcutter's Axe
+- Whistle sprint to camp:
     notes: Whistle sprint so bokos start walking toward you
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
-    notes: Keep this pot lid for eventide
 - Grab food:
-    notes: 4 shrooms, 6 peppers, steak
-- .!!(KEEP 2 SHROOM 2 PEPPER)
+    notes: 4 shrooms, 6 peppers
 - Surf Down + Clip
 - _Chest<Traveller's Bow>:
     coord: [-832.43, 222.00, 1963.11]
@@ -25,9 +23,7 @@ Plateau:
 - BLSS to tower
 - _Tower::GreatPlateau
 
-- WB over barrier to mag:
-    notes: Look down when doing FDC, so if you accidentally throw the tree branch, it doesn't fly too far. 
-           If your tree branch is badly damaged due to hitting the pot and you threw it, make sure get backup one-handed weapon
+- WB over barrier to mag
 - _Chest<Ruby>:
     coord: [-671.65, 171.79, 1522.61]
     var-change:
@@ -40,9 +36,7 @@ Plateau:
     comment: Hammer inside
     var-change:
       Hammer: 40
-- Boulder + BLSS to cryo:
-    var-change:
-      Hammer: -3
+- Boulder + BLSS to cryo
 - _Shrine::KehNamut
 
 - BLSS to ToT
@@ -50,5 +44,3 @@ Plateau:
     split-type: UserDefined
     icon: king
     coord: [-812, 1966.1012189378007]
-- __use__ CheckResources
-- ""

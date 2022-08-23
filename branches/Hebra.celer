@@ -1,43 +1,47 @@
-HebraNorth: # Start: SN
-
+HebraNorth:
 - .dir(E) DT (turn right)
 - _Shrine::RokUwog
+
 - .dir(N) + .dir(<E) Turn Midairs:
     coord: [-2386,-3399.7266494439036]
 - _Shrine::ShaGehma
-- .dir(E>) Turn + .dir(E) midairs:
-    notes: or blss
-- _Shrine::QazaTokki
+
+- .dir(E>) Turn + .dir(E) midairs
+- _Shrine::QazaTokki:
+    comment: Barbarian Legs
+
 - .dir(S) up + BLSS
 - _Shrine::KetohWawai
-- __use__ CheckResources
-- ""
 
-HebraSouth: # Start: SN
 
+
+HebraSouth:
+- .dir(<S) super
 - _Shrine::GomaAsaagh:
-    var-change:
-      FireArrow: -2
-- shoot fire arrow at ice
+    comment: Get claymore.
+
+- .dir(<W) + .dir(<S)
 - _Shrine::LannoKooh
+
 - .dir(NE)
-- Snowball strat:
-    notes: Throw snow ball up and stasis when it rolls down, max hit at the door with hammer
-    var-change:
-      Hammer: -10
+- Scan Guardian Amiibo
 - _Shrine::GeeHarah
 
-- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+- .dir(N) + .dir(E) + .dir(E) + .dir(<E):
     coord: [-2388,-2440.6529636418254]
 - _Shrine::RinOyaa
-- BLSS
-- _Shrine::MonyaToma
-- .dir(W) Turn
-- _Shrine::MaagNorah:
-    var-change:
-      Hammer: -2
-- BLSS:
+
+- .dir(SE) + BLSS:
     coord: [-1434,-2250.5776931988426]
 - _Shrine::RonaKachta
-- __use__ CheckResources
-- ""
+
+
+
+HebraNorthwest:
+- BLSS
+- _Shrine::HiaMiu
+
+- .dir(E)
+- Clip into mountain
+- _Shrine::ToQuomo:
+    comment: Get claymore. 
