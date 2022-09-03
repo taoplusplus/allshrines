@@ -1,63 +1,33 @@
-Faron: # Start: Lakna Rokee
-- Cut tree, get wood
-- Throw away axe
-- .dir(N>) super
-- Tame mountain buck
-- _Shrine::MezzaLo
-
-- 4 WB S
-- _Shrine::DowNaeh
-
-- .dir(<N) + .dir(S>):
-    coord: [2642,1187.0932957332761]
-- _Shrine::KamUrog
-
-- .dir(S) + .dir(S>>) super
-- Land, grab 2 Chuchu Jelly:
-    icon: material
-    coord: [1948.78, 152.35, 2359.83]
-- .dir(SW)
-- _Shrine::TotoSah
-
+Faron: # Start: Jitan Sami
+- Infinity SCW:
+    notes: Sign activate. Make sure right stick is not neutral when activating the sign, which saves 10 frames
+- _Shrine::TawaJinn
+- .dir(<<N) Turn + .dir(.W) Delay Turn
+- _Shrine::TotoSah:
+    var-change:
+      Hammer: -1
 - .dir(<N) Turn (super)
 - _Shrine::HaDahamar
-
 - .dir(<<W) + .dir(NW)
 - _Shrine::ReeDahee
 
 - Shield Surf SCW
 - _Shrine::SheeVaneer
 - _Shrine::SheeVenath
-
-- .dir(SE) + .dir(<<S) + .dir(<S)
-- _Tod::Morning:
-    coord: [1740,2981.200060914244]
-- _Material<Farosh Scale>
-
-- .dir(S>) super
-- _Shrine::ShaiUtoh
-
-- .dir(N>) + midair
-- _Shrine::ShodaSah
-- _Chest<10 Ice Arrow>
-
-- .dir(S) + .dir(E>)
-- Clip in
+- BLSS 
 - _Shrine::QukahNata
-
-- .dir(E>)
-- _Chest<5 Ice Arrow>:
-    coord: [2675.91, 276.83, 2981.42]
-- Return orb
-- .dir(W>)
-- Knight's Bow
-- Return orb
-- .dir(NE>)
-- Spiked Boko Bow
-- Spiked Boko Bat
-- Return orb
-
-- _Shrine::TawaJinn
-
-- .dir(<S)
-- _Shrine::YahRin
+- _Tod::Morning:
+    notes: Make morning here So farosh is already spawned when you wb up
+- .dir(<N) + .dir(W.):
+    coord: [1740,2981.200060914244]
+- _Material<Farosh Scale>:
+    var-change:
+      Wood: -1
+      FireArrow: -1
+- _Shrine::ShodaSah
+- BLSS
+- _Shrine::ShaiUtoh:
+    var-change:
+      Hammer: -1
+- __use__ CheckResources
+- ""
