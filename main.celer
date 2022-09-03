@@ -13,7 +13,9 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - "(==) This is the new route with Eventide and Tawa Jinn SCW. If you are looking for the route with a commentated guide: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/v32)"
+  - (==) This is the current (2022-08-30) world record run by .link([iTNTPiston]https://www.speedrun.com/user/iTNTPiston). .link([Video link]https://youtu.be/J3yQY7WtJuE).
+  - (==) For the previous (2022-07-23) world record by .link([XiaoXiaMi]https://www.speedrun.com/user/XiaoXiaMi), go .link([here]https://celer.itntpiston.app/#/gh/taoplusplus/allshrines/2022-07-23-xiaoxiami).
+  - (==) Forked from .link([Piston's as3 route]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/)
   - Plateau: __use__ Plateau
   - Korok Forest:
     - __use__ Kakariko

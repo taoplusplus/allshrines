@@ -1,6 +1,7 @@
 HebraNorth: # Start: SN
 
 - .dir(E) DT (turn right)
+- Get Boomerang from Lizalfos
 - _Shrine::RokUwog
 - .dir(N) + .dir(<E) Turn Midairs:
     coord: [-2386,-3399.7266494439036]

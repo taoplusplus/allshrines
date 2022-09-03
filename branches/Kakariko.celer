@@ -38,7 +38,7 @@ Kakariko:
     notes: 
       Faster to only have 2 endura left. If you have all 6 shrooms, cook 2 of them into one meal (or just cook 4).
       Use shroom, pepper, endura, butterfly, carrot to break 5 slots.
-      Import .link([this simulator file]https://github.com/iTNTPiston/as3/blob/main/IST.txt)
+      Import .link([this simulator file]https://github.com/taoplusplus/allshrines/blob/main/IST.txt)
       to .link([the simulator]https://dupl.itntpiston.app/#options) to see the steps for IST. 
 - +_Equipment::Shield<Pot Lid>:
     hide-icon-on-map: true

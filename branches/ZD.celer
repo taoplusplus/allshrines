@@ -12,7 +12,7 @@ ZD: # Start: Mezza Lo
 - .dir(E):
    coord: [3087,-458.2024378756023]
 - _Shrine::DagahKeek
-- .dir(S) Turn + .dir(<S) TS
+- BLSS
 - _Shrine::RuccoMaag
 - .dir(E>) + .dir(E) Turn
 - _Shrine::ShaiYota

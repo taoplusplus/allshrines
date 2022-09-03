@@ -36,12 +36,13 @@ KorokForest: # Start: Lakna Rokee
 - _Shrine::SaasKosah:
     comment: light normal arrow activate
 
-- +Run up:
-    notes: Switch to mag and EOD, headshot the lizalfos and sneakstrike. Can also use the bookshelf but it's less consistent
-    coord: [-161.5,-1079.8605516003681]
-    var-change:
-      EOD: -1
-- _Equipment::Weapon<Boomerang>
+# - +Run up:
+#     notes: Switch to mag and EOD, headshot the lizalfos and sneakstrike. Can also use the bookshelf but it's less consistent
+#     coord: [-161.5,-1079.8605516003681]
+#     var-change:
+#       EOD: -1
+# - _Equipment::Weapon<Boomerang>
+- Run up
 - +WB out
 - _Chest<3 AA>:
     comment: optional for ganon
