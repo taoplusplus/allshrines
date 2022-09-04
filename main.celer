@@ -13,7 +13,7 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - (==) This is the current (2022-07-23) world record run by .link([XiaoXiaMi]https://www.speedrun.com/user/XiaoXiaMi). .link([Video link]https://www.bilibili.com/video/BV11r4y177j3?zw)
+  - (==) This is a previous (2022-07-23) world record run by .link([XiaoXiaMi]https://www.speedrun.com/user/XiaoXiaMi). .link([Video link]https://www.bilibili.com/video/BV11r4y177j3?zw)
   - (==) Forked from .link([Piston's as3 route]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/)
   - Plateau: __use__ Plateau
   - Faron:
